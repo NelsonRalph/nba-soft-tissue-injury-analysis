@@ -1,0 +1,26 @@
+# ── R session files ─────────────────────────────────────────────────────────
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# ── Data files too large for GitHub ─────────────────────────────────────────
+# The injury CSV (download from Kaggle — link in README)
+data/NBA_Player_Injury_Stats_1951_-_2023_.csv
+
+# The auto-downloaded hoopR RDS cache (script re-downloads these automatically)
+nba_data/
+
+# ── Operating system junk ────────────────────────────────────────────────────
+.DS_Store          # macOS Finder metadata
+Thumbs.db          # Windows thumbnail cache
+desktop.ini        # Windows folder settings
+
+# ── Editor / IDE files ───────────────────────────────────────────────────────
+.vscode/
+*.swp
+*~
+
+# ── Output folders (figures are committed separately under figures/) ─────────
+nba_figures/
+output/
